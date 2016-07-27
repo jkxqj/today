@@ -1,0 +1,14 @@
+{
+  "name": "oldriver's First Extension历史上的今天",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "The first extension that I made.历史上的今天--oldriver",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_popup": "index.html"
+  },
+  "permissions": [
+    "http://www.ipip5.com/today/api.php"
+  ]
+}
+
